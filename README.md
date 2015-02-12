@@ -8,3 +8,5 @@ Statically compile PHP
 - `$ ./configure --prefix=/tmp/php-5.6.5/compiled --disable-all --without-pear --enable-shared=no --enable-static=yes --enable-phar --enable-json --with-openssl --with-curl --with-mhash --with-gd --with-freetype-dir --enable-mbstring --enable-sockets`
 - `$ make`
 - `$ make install`
+
+See http://php.net/manual/en/configure.about.php for more information on all configuration options.
